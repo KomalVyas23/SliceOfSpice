@@ -1,0 +1,30 @@
+{
+  "name": "namaste-react-live",
+  "version": "1.0.0",
+  "description": "Lets build a food ordering app using React",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KomalVyas23/SliceOfSpice.git"
+  },
+  "keywords": [
+    "Restaurant"
+  ],
+  "author": "Komal Shivangi Vyas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KomalVyas23/SliceOfSpice/issues"
+  },
+  "homepage": "https://github.com/KomalVyas23/SliceOfSpice#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
