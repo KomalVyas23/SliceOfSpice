@@ -1,22 +1,31 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const parent = React.createElement("div", { id: "parent" }, [
-  React.createElement("div", { id: "child" }, [
-    React.createElement("h1", {}, "I'm an h1 tag"),
-    React.createElement("h2", {}, "I'm an h2 tag"),
-  ]),
-  React.createElement("div", { id: "child2" }, [
-    React.createElement("h1", {}, "I'm an h1 tag"),
-    React.createElement("h2", {}, "I'm an h2 tag"),
-  ]),
-]);
-
-
 //JSX
 
-console.log(parent); // object
+const heading = (
+<h1 id="title" key="h2">
+  Namaste React
+ </h1>
+ );
+
+ // React Component
+ // Functional - NEW
+
+ //Name of component start with capital letter - is it a good practise
+ const HeaderComponent = () =>{
+  return(
+    <>
+    {heading}
+      <h1>Namaste React Functional Component</h1>
+    <h2> This is a h2 tag</h2>
+    </>
+  );
+ }
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(parent);
+root.render(<HeaderComponent />);

@@ -2,8 +2,9 @@
   "name": "namaste-react-live",
   "version": "1.0.0",
   "description": "Lets build a food ordering app using React",
-  "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -20,6 +21,8 @@
   },
   "homepage": "https://github.com/KomalVyas23/SliceOfSpice#readme",
   "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.11.0",
     "process": "^0.11.10"
   },
@@ -28,4 +31,3 @@
     "react-dom": "^18.2.0"
   }
 }
-
